@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #009bdf;
+  color: white;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 30px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  gap: 15px;
+}
+
+.logo {
+  height: 60px;
+  width: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header-text {
+  text-align: right;
+  line-height: 1.4;
+}
+
+.header-text h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.header-text p {
+  font-size: 1.2rem;
+  opacity: 0.95;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+}
+
+.social-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px auto;
+  padding: 15px 25px;
+  width: 90%;
+  max-width: 400px;
+  background-color: white;
+  color: #009bdf;
+  border: none;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.social-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.social-btn i {
+  margin-left: 12px;
+  font-size: 1.5rem;
+}
+
+.social-btn.whatsapp i {
+  color: #25d366;
+}
+
+.social-btn.instagram i {
+  color: #e1306c;
+}
+
+.social-btn.facebook i {
+  color: #1877f2;
+}
+
+footer {
+  margin-top: auto;
+  padding: 25px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+footer a {
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+footer a:hover {
+  opacity: 0.8;
+}
